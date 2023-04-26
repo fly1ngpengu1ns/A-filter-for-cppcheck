@@ -1,4 +1,5 @@
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # @Author : fly1ngpengu1ns
 import re
 
@@ -39,7 +40,7 @@ def write_three_lines(dst, src, txt: bytes):
 
 
 with open('output-cppcheck.txt', 'rb') as f1:
-    with open('newnew.txt', 'wb') as f2:
+    with open('AfterSelect.txt', 'wb') as f2:
         with open('WarnAndErr.txt', 'wb') as f3:
             txt = f1.readline()
             while txt:
